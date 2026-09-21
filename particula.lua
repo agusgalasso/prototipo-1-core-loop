@@ -48,3 +48,5 @@ function Particula:Dibujar()
     )
 
 end
+
+return Particula

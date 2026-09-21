@@ -52,3 +52,5 @@ function Proyectil:Dibujar()
     )
 
 end
+
+return Proyectil

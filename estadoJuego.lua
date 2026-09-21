@@ -228,10 +228,10 @@ function EstadoJuego.comprobarColisiones()
                 EstadoJuego.jugador
             ) then
 
-                local recibioDaño =
-                    EstadoJuego.jugador:RecibirDaño()
+                local recibioDano =
+                    EstadoJuego.jugador:RecibirDano()
 
-                if recibioDaño then
+                if recibioDano then
 
                     enemigo.vivo = false
 
@@ -267,7 +267,7 @@ function EstadoJuego.comprobarColisiones()
                         proyectil.activo = false
 
                         local destruido =
-                            enemigo:RecibirDaño()
+                            enemigo:RecibirDano()
 
                         if destruido then
 

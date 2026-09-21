@@ -70,7 +70,7 @@ function Jugador:Actualizar(dt)
 
 end
 
-function Jugador:RecibirDaño()
+function Jugador:RecibirDano()
 
     if self.invulnerable then
         return false

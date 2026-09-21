@@ -110,3 +110,5 @@ function Jugador:Dibujar()
     )
 
 end
+
+return Jugador

@@ -399,3 +399,5 @@ end
 function EstadoJuego.teclaLiberada(tecla)
 
 end
+
+return EstadoJuego

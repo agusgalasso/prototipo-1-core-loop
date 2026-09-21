@@ -63,3 +63,5 @@ function EstadoMenu.teclaPresionada(tecla)
     end
 
 end
+
+return EstadoMenu

@@ -15,7 +15,7 @@ Juego = {
 function love.load()
 
     love.window.setMode(800, 600)
-    love.window.setTitle("Juego Procedural")
+    love.window.setTitle("CORE LOOP")
 
     Juego.cambiarEstado(EstadoMenu)
 

@@ -51,3 +51,5 @@ function EstadoVictoria.teclaPresionada(tecla)
     end
 
 end
+
+return EstadoVictoria

@@ -51,3 +51,5 @@ function EstadoDerrota.teclaPresionada(tecla)
     end
 
 end
+
+return EstadoDerrota

@@ -14,7 +14,7 @@ function Particula:Nuevo(x, y)
 
     o.tiempo = 0.5
 
-    o.tamaño = math.random(3, 7)
+    o.tamano = math.random(3, 7)
 
     o.activa = true
 
@@ -43,8 +43,8 @@ function Particula:Dibujar()
         "fill",
         self.x,
         self.y,
-        self.tamaño,
-        self.tamaño
+        self.tamano,
+        self.tamano
     )
 
 end

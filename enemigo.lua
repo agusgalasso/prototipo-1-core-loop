@@ -111,3 +111,5 @@ function Enemigo:Dibujar()
     )
 
 end
+
+return Enemigo

@@ -64,7 +64,7 @@ function Enemigo:Actualizar(x, y, dt)
 
 end
 
-function Enemigo:RecibirDaño()
+function Enemigo:RecibirDano()
 
     self.vida = self.vida - 1
 

@@ -15,7 +15,7 @@ function EstadoMenu.dibujar()
     love.graphics.setColor(1, 1, 1)
 
     love.graphics.printf(
-        "JUEGO PROCEDURAL",
+        "CORE LOOP",
         0,
         180,
         800,
@@ -47,7 +47,7 @@ function EstadoMenu.dibujar()
     )
 
     love.graphics.printf(
-        "Presiona ENTER para comenzar",
+        "Presione ENTER para comenzar",
         0,
         360,
         800,
